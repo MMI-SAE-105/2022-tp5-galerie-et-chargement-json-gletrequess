@@ -39,7 +39,7 @@
         /* Font family "sans-serif" */
         font: family:sans-serif;
         /* Centered text */
-        text=align::center;
+        text-align:center;
         /* Line height ( idem height ) */
         line-height:2rem;
         /* Display as a block */
@@ -52,7 +52,9 @@
         height:2rem;
         /* 2rem height */
         /* White border of 2px */
+        border: white solid 2px;
         /* Rounded border */
+        border-radius:50%
     }
     img{
         max-width: 100%;
