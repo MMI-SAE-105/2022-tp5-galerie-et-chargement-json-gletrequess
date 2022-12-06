@@ -53,6 +53,7 @@
         /* Max width of the figure : 100% */
         /* Max height of the figure : 100% */
         /* No margin */
+        margin: .5rem;
         /* 1rem padding */
         /* White border of 2px */
     }
