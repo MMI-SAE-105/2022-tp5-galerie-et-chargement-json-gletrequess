@@ -12,19 +12,22 @@
         /* Full width (cover the whole page) */
         height: 100vw; /* Commentaire */
         /* Full height (cover the whole page) */
-        width: 100vw;
+        width: 100vw; /* Commentaire à mettre */
         /* Stay at the top */
         top: 0;
         /* Stay at the left */
         left: 0;
         /* Stay at the right */
+        right: 0;
         /* Stay at the bottom */
         bottom: 0;
         /* Black background with opacity */
         background-color: rgba(0,0,0,.7);
         /* Add a pointer on hover */
         /* Use a grid for easy centering */
+        display:grid;
         /* Center vertically and horizontally */
+        place-content: center;
     }
     .overlay::after {
         /* Add content : "X" */
@@ -41,6 +44,10 @@
         /* 2rem height */
         /* White border of 2px */
         /* Rounded border */
+    }
+    img{
+        max-width: 100%;
+        height: auto;
     }
     .overlay>figure {
         /* Max width of the figure : 100% */
