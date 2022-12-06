@@ -12,9 +12,11 @@
         /* Full width (cover the whole page) */
         height: 100vw; /* Commentaire */
         /* Full height (cover the whole page) */
+        width: 100vw;
         /* Stay at the top */
         top: 0;
         /* Stay at the left */
+        left: 0;
         /* Stay at the right */
         /* Stay at the bottom */
         bottom: 0;
