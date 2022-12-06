@@ -56,4 +56,5 @@
         margin: .5rem;
         /* 1rem padding */
         /* White border of 2px */
+        border: solid;
     }
